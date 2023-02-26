@@ -18,6 +18,7 @@
 
 ### 使用截图如下：
 
-<img width="500" src="./image/zh-to-wyw.png" alt="zh-to-en">
+<img width="500" src="./image/conversation.png" alt="conversation">
+<img width="500" src="./image/zh-to-wyw.png" alt="zh-to-wyw">
 <img width="500" src="./image/zh-to-en.png" alt="zh-to-en">
 <img width="500" src="./image/en-to-zh.png" alt="en-to-zh">
