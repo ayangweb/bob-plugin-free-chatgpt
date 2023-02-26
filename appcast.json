@@ -1,0 +1,12 @@
+{
+  "identifier": "com.bob-plugin-free-chatgpt-translate",
+  "versions": [
+    {
+      "version": "0.0.1",
+      "desc": "初始版本",
+      "sha256": "ceecff2096c8962d3ff2129f4b5a9201b7d6d5490fcfedc59ec8ec35c8ca1745",
+      "url": "https://github.com/bilibili-ayang/bob-plugin-free-chatgpt-translate/releases/download/v0.0.1/bob-plugin-free-chatgpt-translate.bobplugin",
+      "minBobVersion": "0.5.0"
+    }
+  ]
+}
