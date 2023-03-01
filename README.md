@@ -2,7 +2,7 @@
 
 ## 无需秘钥，免翻可用，可以直接在 bob 中进行工作，如果有一天它不工作了，请联系我进行修复！
 
-> 插件下载地址：[bob-plugin-free-chatgpt-v0.0.2.bobplugin](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/releases/download/v0.0.2/bob-plugin-free-chatgpt.bobplugin)
+> 插件下载地址：[bob-plugin-free-chatgpt-v0.0.3.bobplugin](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/releases/download/v0.0.3/bob-plugin-free-chatgpt.bobplugin)
 
 ### bob 插件大合集:
 
