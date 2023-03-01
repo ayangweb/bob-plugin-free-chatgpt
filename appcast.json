@@ -2,6 +2,13 @@
   "identifier": "com.bob-plugin-free-chatgpt",
   "versions": [
     {
+      "version": "0.0.2",
+      "desc": "修复了已知bug",
+      "sha256": "7d132de2177091245d68a7b2e45f9b7a89e980b493f74958ba52a96eff2cc229",
+      "url": "https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/releases/download/v0.0.2/bob-plugin-free-chatgpt.bobplugin",
+      "minBobVersion": "0.5.0"
+    },
+    {
       "version": "0.0.1",
       "desc": "初始版本",
       "sha256": "87e10cdfbd1c5e6c641a7cc37d65416628c6cd12b433daed31a3d1b1d723586a",
