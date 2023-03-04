@@ -39,8 +39,10 @@ async function translate(query, completion) {
 		if (openConversation) {
 			message = readFile(historyFileName).concat(message);
 		} else {
-			message.content = `${content}的${toName}翻译，直接回答结果就行！`;
+			message.content = `${content} 翻译成 ${toName}，要求保留译文的回车格式！`;
 		}
+
+		$log.info(message.content);
 
 		// 获取对话结果
 		const chatResult = await request(message);

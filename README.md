@@ -35,7 +35,6 @@
  <img width="500" src="./image/directive-1.png" alt="directive-1">
  <img width="500" src="./image/directive-2.png" alt="directive-2">
  <img width="500" src="./image/directive-3.png" alt="directive-3">
- <img width="500" src="./image/directive-4.png" alt="directive-4">
 
 ### 对话模式截图如下
 
