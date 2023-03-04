@@ -2,6 +2,13 @@
   "identifier": "com.bob-plugin-free-chatgpt",
   "versions": [
     {
+      "version": "0.0.4",
+      "desc": "https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/blob/master/CHANGELOG.md",
+      "sha256": "959e48e9a85744f97fe74ea3202967c7dd6a3e0f4be43b8d6a45a497e7d1f9ec",
+      "url": "https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/releases/download/v0.0.4/bob-plugin-free-chatgpt.bobplugin",
+      "minBobVersion": "0.5.0"
+    },
+    {
       "version": "0.0.3",
       "desc": "简化了指令用法，详情见 github 文档！",
       "sha256": "66607a721a4ada7a27cf1219184f02061c1914a9f9f140788e2ed89b220ffc2d",
