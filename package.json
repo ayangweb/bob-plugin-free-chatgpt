@@ -1,0 +1,23 @@
+{
+  "name": "bob-plugin-free-chatgpt",
+  "version": "0.0.3",
+  "description": "无需秘钥，免翻可用，可以直接在 bob 中进行工作，如果有一天它不工作了，请联系我进行修复！",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "build": "node ./scripts/build.cjs",
+    "release": "release-it"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@release-it/conventional-changelog": "^5.1.1",
+    "adm-zip": "^0.5.10",
+    "fs-extra": "^11.1.0",
+    "husky": "^8.0.3",
+    "release-it": "^15.7.0"
+  }
+}

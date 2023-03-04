@@ -14,8 +14,8 @@ node_modules
 dist
 dist-ssr
 *.local
-*.bob
 *.bobplugin
+release
 
 # Editor directories and files
 .vscode/*
