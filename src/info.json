@@ -1,0 +1,12 @@
+{
+  "identifier": "com.bob-plugin-free-chatgpt",
+  "version": "0.0.3",
+  "category": "translate",
+  "name": "chatGPT",
+  "summary": "免秘钥免翻使用 chatGPT 进行对话或翻译",
+  "icon": "icon.png",
+  "author": "ayang",
+  "homepage": "https://github.com/bilibili-ayang/bob-plugin-free-chatgpt",
+  "appcast": "https://raw.githubusercontent.com/bilibili-ayang/bob-plugin-free-chatgpt/master/appcast.json",
+  "minBobVersion": "0.5.0"
+}
