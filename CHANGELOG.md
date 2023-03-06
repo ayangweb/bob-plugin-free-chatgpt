@@ -1,5 +1,12 @@
 
 
+# [0.1.0](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.0.9...v0.1.0) (2023-03-06)
+
+
+### Bug Fixes
+
+* fixed the problem of error reporting in translation content ([430986e](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/commit/430986e14a7e07bfa0138d9a10df558757446532))
+
 ## [0.0.9](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.0.8...v0.0.9) (2023-03-06)
 
 
