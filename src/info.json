@@ -2,7 +2,7 @@
   "identifier": "com.bob-plugin-free-chatgpt",
   "version": "0.0.7",
   "category": "translate",
-  "name": "chatGPT",
+  "name": "ChatGPT",
   "summary": "免秘钥免翻使用 chatGPT 进行对话或翻译",
   "icon": "icon.png",
   "author": "ayang",
