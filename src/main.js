@@ -10,6 +10,7 @@ async function translate(query, completion) {
 	try {
 		const { text: content, detectFrom: from, detectTo: to } = query;
 
+		const fromName = getLanguageName(from);
 		const toName = getLanguageName(to);
 
 		// 返回结果
@@ -39,7 +40,7 @@ async function translate(query, completion) {
 		if (openConversation) {
 			message = readFile(historyFileName).concat(message);
 		} else {
-			message.content = `${content} 翻译成 ${toName}，要求保留译文的回车格式！`;
+			message.content = `请将以下${fromName}内容翻译成${toName}，并保留原文中的回车格式：\n${content}`;
 		}
 
 		// 获取对话结果
@@ -55,7 +56,7 @@ async function translate(query, completion) {
 			});
 		}
 
-		completionResult(chatResult.content);
+		completionResult(chatResult?.content);
 	} catch ({ message }) {
 		completion({
 			error: {
