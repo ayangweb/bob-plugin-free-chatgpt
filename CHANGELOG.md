@@ -1,5 +1,12 @@
 
 
+## [0.0.6](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.0.5...v0.0.6) (2023-03-06)
+
+
+### Bug Fixes
+
+* repair the interface failure problem ([267946c](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/commit/267946cab1b21548f4488203e13c149a49552564))
+
 ## [0.0.5](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.0.4...v0.0.5) (2023-03-04)
 
 
