@@ -1,5 +1,12 @@
 
 
+## [0.0.7](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.0.6...v0.0.7) (2023-03-06)
+
+
+### Performance Improvements
+
+* the translation mode is optimized ([f58b482](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/commit/f58b482a9ea6a12f4394010bfc831a1c23471e94))
+
 ## [0.0.6](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.0.5...v0.0.6) (2023-03-06)
 
 
