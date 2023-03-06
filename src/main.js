@@ -48,7 +48,10 @@ async function translate(query, completion) {
 
 		// 对话模式就保存
 		if (openConversation) {
-			message.push(chatResult);
+			message.push({
+				content: chatResult,
+				role: "assistant",
+			});
 
 			writeFile({
 				value: message,
@@ -56,7 +59,7 @@ async function translate(query, completion) {
 			});
 		}
 
-		completionResult(chatResult?.content);
+		completionResult(chatResult);
 	} catch ({ message }) {
 		completion({
 			error: {

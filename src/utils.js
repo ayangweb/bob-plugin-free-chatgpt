@@ -26,7 +26,7 @@ async function request(messages) {
 
 	if (error) throw new Error(error);
 
-	return choices[0].message;
+	return choices[0].text;
 }
 
 function getDirectiveResult(text) {
