@@ -10,7 +10,7 @@ async function request(messages) {
 		body: {
 			messages,
 			model: "gpt-3.5-turbo",
-			tokensLength: messages.at(-1).content.length,
+			tokensLength: messages[messages.length - 1].content.length,
 		},
 		header: {
 			"content-type": "application/json",
