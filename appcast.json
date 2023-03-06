@@ -2,6 +2,13 @@
   "identifier": "com.bob-plugin-free-chatgpt",
   "versions": [
     {
+      "version": "0.0.6",
+      "desc": "https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/blob/master/CHANGELOG.md",
+      "sha256": "cd627ee7afd9def74a226f5405ebc77a68b207d57fac67609918869642718065",
+      "url": "https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/releases/download/v0.0.6/bob-plugin-free-chatgpt.bobplugin",
+      "minBobVersion": "0.5.0"
+    },
+    {
       "version": "0.0.5",
       "desc": "https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/blob/master/CHANGELOG.md",
       "sha256": "70f092f17efcd2ed688a84ea4a61f5283080277c9ee98b44f79700d43711a69b",
