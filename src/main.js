@@ -42,17 +42,12 @@ async function translate(query, completion) {
 			message.content = `${content} 翻译成 ${toName}，要求保留译文的回车格式！`;
 		}
 
-		$log.info(message.content);
-
 		// 获取对话结果
 		const chatResult = await request(message);
 
 		// 对话模式就保存
 		if (openConversation) {
-			message.push({
-				content: chatResult,
-				role: "assistant",
-			});
+			message.push(chatResult);
 
 			writeFile({
 				value: message,
@@ -60,11 +55,12 @@ async function translate(query, completion) {
 			});
 		}
 
-		completionResult(chatResult);
-	} catch (error) {
+		completionResult(chatResult.content);
+	} catch ({ message }) {
 		completion({
 			error: {
 				type: "unknow",
+				message,
 			},
 		});
 	}

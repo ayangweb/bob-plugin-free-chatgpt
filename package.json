@@ -9,7 +9,7 @@
     "release": "release-it"
   },
   "keywords": [],
-  "author": "",
+  "author": "ayang",
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",

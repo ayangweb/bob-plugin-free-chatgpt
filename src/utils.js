@@ -6,9 +6,11 @@ async function request(messages) {
 	}
 
 	const result = await $http.post({
-		url: "https://chatgpt.ddiu.me/api/generate",
+		url: "https://api.aioschat.com/",
 		body: {
 			messages,
+			model: "gpt-3.5-turbo",
+			tokensLength: messages.at(-1).content.length,
 		},
 		header: {
 			"content-type": "application/json",
@@ -20,12 +22,18 @@ async function request(messages) {
 		throw new Error();
 	}
 
-	$log.info(result?.data);
+	const { error, choices } = result.data;
 
-	return result.data;
+	if (error) throw new Error(error);
+
+	return choices[0].message;
 }
 
 function getDirectiveResult(text) {
+	if (/c\s*h\s*a\s*t\s*g\s*p\s*t/i.test(text)) {
+		return "您好，我是ChatGPT，一个基于GPT技术的聊天机器人，可以回答您的问题，与您进行简单的对话。有什么我可以帮您的吗？";
+	}
+
 	const configValue = readFile();
 
 	let tips;
