@@ -1,5 +1,12 @@
 
 
+## [0.0.9](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.0.8...v0.0.9) (2023-03-06)
+
+
+### Bug Fixes
+
+* fixed a compatibility issue caused by selecting the last element at ([8103dd9](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/commit/8103dd912bcc9743247b5b37cbd917516e17a765))
+
 ## [0.0.8](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.0.7...v0.0.8) (2023-03-06)
 
 ## [0.0.7](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.0.6...v0.0.7) (2023-03-06)
