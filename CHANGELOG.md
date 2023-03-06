@@ -1,5 +1,7 @@
 
 
+## [0.0.8](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.0.7...v0.0.8) (2023-03-06)
+
 ## [0.0.7](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.0.6...v0.0.7) (2023-03-06)
 
 
