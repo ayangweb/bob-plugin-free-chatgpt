@@ -4,7 +4,7 @@
 
 > 主要为 bob 用户开发，bob 是一款 macOS 上的翻译软件，官网地址：[bob](https://bobtranslate.com/)
 >
-> 插件下载地址：[bob-plugin-free-chatgpt-v0.0.8.bobplugin](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/releases/download/v0.0.8/bob-plugin-free-chatgpt.bobplugin)
+> 插件下载地址：[bob-plugin-free-chatgpt-v0.0.9.bobplugin](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/releases/download/v0.0.9/bob-plugin-free-chatgpt.bobplugin)
 
 ### bob 插件大合集:
 
