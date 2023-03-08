@@ -22,9 +22,9 @@ async function request(messages) {
 		throw new Error();
 	}
 
-	const { error, choices } = result.data;
+	const { errorMessage, error, choices } = result.data;
 
-	if (error) throw new Error(error);
+	if (errorMessage || error) throw new Error(errorMessage || error);
 
 	return choices[0].text;
 }
