@@ -1,5 +1,18 @@
 
 
+## [0.1.1](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.1.0...v0.1.1) (2023-03-08)
+
+
+### Features
+
+* document added calf translate ([37666d3](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/commit/37666d3dfefbde4145e982862c428e97ef6cae6d))
+* update docs ([26ee7c5](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/commit/26ee7c57bb4542fbc4eb858755eff073e204b502))
+
+
+### Performance Improvements
+
+* optimized the error message ([f9d4826](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/commit/f9d4826f7f5817bb3ebe358310d0d71deaa8c7d7))
+
 # [0.1.0](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.0.9...v0.1.0) (2023-03-06)
 
 

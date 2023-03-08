@@ -1,6 +1,6 @@
 {
   "name": "bob-plugin-free-chatgpt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "无需秘钥，免翻可用，可以直接在 bob 中进行工作，如果有一天它不工作了，请联系我进行修复！",
   "main": "index.js",
   "scripts": {
