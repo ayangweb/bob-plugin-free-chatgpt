@@ -1,5 +1,12 @@
 
 
+## [0.1.2](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.1.1...v0.1.2) (2023-03-09)
+
+
+### Bug Fixes
+
+* fixed the bug that translation mode is still conversation mode, resolve [#3](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/issues/3) ([e112a0d](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/commit/e112a0db50c4dc65aca276b0f5bb07ae2674273b))
+
 ## [0.1.1](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.1.0...v0.1.1) (2023-03-08)
 
 
