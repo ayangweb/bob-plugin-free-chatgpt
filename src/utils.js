@@ -26,7 +26,7 @@ async function request(messages) {
 
 	if (errorMessage || error) throw new Error(errorMessage || error);
 
-	return choices[0].text.replace(/chat\s*gpt/gi, "ChatGPT");
+	return choices[0].text;
 }
 
 function getDirectiveResult(text) {

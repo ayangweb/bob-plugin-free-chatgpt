@@ -17,6 +17,8 @@ async function translate(query, completion) {
 
 		// 返回结果
 		const completionResult = (result) => {
+			result = result.replace(/chat\s*gpt/gi, "ChatGPT");
+
 			completion({
 				result: {
 					from,
