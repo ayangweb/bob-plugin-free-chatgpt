@@ -1,6 +1,6 @@
 {
   "identifier": "com.bob-plugin-free-chatgpt",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "category": "translate",
   "name": "ChatGPT",
   "summary": "免秘钥免翻使用 chatGPT 进行对话或翻译",
