@@ -8,7 +8,9 @@ function supportLanguages() {
 
 async function translate(query, completion) {
 	try {
-		const { text: content, detectFrom: from, detectTo: to } = query;
+		const { text, detectFrom: from, detectTo: to } = query;
+
+		const content = text.replace(/chatgpt/gi, "Chat GPT");
 
 		const fromName = getLanguageName(from);
 		const toName = getLanguageName(to);

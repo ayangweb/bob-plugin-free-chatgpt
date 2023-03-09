@@ -26,33 +26,33 @@ async function request(messages) {
 
 	if (errorMessage || error) throw new Error(errorMessage || error);
 
-	return choices[0].text;
+	return choices[0].text.replace(/chat\s*gpt/gi, "ChatGPT");
 }
 
 function getDirectiveResult(text) {
-	if (/c\s*h\s*a\s*t\s*g\s*p\s*t/i.test(text)) {
-		return "您好，我是ChatGPT，一个基于GPT技术的聊天机器人，可以回答您的问题，与您进行简单的对话。有什么我可以帮您的吗？";
-	}
-
 	const configValue = readFile();
 
-	let tips;
+	let message;
 
 	switch (text) {
 		case "#模式":
-			return `当前处于${
-				configValue.openConversation
-					? "对话模式，你有什么问题要问我吗？"
-					: "翻译模式，我支持很多种语言翻译哦~"
-			}`;
+			if (configValue.openConversation) {
+				return "当前处于对话模式，有什么可以帮助你的呢？";
+			} else {
+				return "当前处于翻译模式，我支持很多种语言翻译哦~";
+			}
+
 		case "#切换":
 			configValue.openConversation = !configValue.openConversation;
 
-			tips = configValue.openConversation
-				? "已开启对话模式！"
-				: "已开启翻译模式！";
+			if (configValue.openConversation) {
+				message = "已开启对话模式！";
+			} else {
+				message = "已开启翻译模式！";
+			}
 
 			break;
+
 		case "#清除":
 			deleteFile();
 
@@ -64,7 +64,7 @@ function getDirectiveResult(text) {
 		fileName: configFileName,
 	});
 
-	return tips;
+	return message;
 }
 
 module.exports = { request, getDirectiveResult };
