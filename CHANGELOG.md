@@ -1,5 +1,12 @@
 
 
+## [0.1.3](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.1.2...v0.1.3) (2023-03-09)
+
+
+### Performance Improvements
+
+* optimized the position of parameter processing ([75b54e6](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/commit/75b54e605711c2e4789e0467e5a0f8919c93fac4))
+
 ## [0.1.2](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt/compare/v0.1.1...v0.1.2) (2023-03-09)
 
 
