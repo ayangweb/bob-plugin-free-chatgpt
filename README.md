@@ -20,6 +20,8 @@
 
 > [爱词霸翻译插件(免秘钥)](https://github.com/bilibili-ayang/bob-plugin-free-iciba-translate)
 
+> [计算器插件](https://github.com/bilibili-ayang/bob-plugin-calculator)
+
 > [chatGPT 插件(免秘钥，免翻)](https://github.com/bilibili-ayang/bob-plugin-free-chatgpt)
 
 ### 如何使用？
