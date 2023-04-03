@@ -28,6 +28,10 @@ async function translate(query, completion) {
 			});
 		};
 
+		completionResult("插件已失效，以后也不会更新，望知悉！");
+
+		return;
+
 		// 触发指令的结果
 		const directiveResult = getDirectiveResult(content);
 		if (directiveResult) {

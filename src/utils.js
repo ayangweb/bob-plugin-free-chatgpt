@@ -6,7 +6,7 @@ async function request(messages) {
 	}
 
 	const result = await $http.post({
-		url: "https://api.aioschat.com/",
+		url: "失效了，没啦",
 		body: {
 			messages,
 			model: "gpt-3.5-turbo",
